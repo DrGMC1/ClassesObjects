@@ -1,0 +1,27 @@
+package TwoClasses;
+
+public class TutorialStudent {
+	public static void main(String[] args) {
+		  
+		  Student Andy = new Student(); // THIS IS HOW WE CAN CREATE OBJECTS IN JAVA
+		  Andy.name = "Andy Smith";
+		  Andy.rollno = 1;
+		  Andy.age = 20;
+		  Andy.scholarship = true;
+		  Andy.level = "Senior";
+		  Andy.Gender = 'M';
+		  Andy.introduce();
+		  
+		  Student Carl = new Student(); // Introducing another object with empty values
+		  Carl.introduce();
+	
+		 
+		 /* if(Andy.hasScholarship()){
+		   System.out.println("Andy has Scholarship");
+		  }else{
+		   System.out.println("Andy has no Scholarship");
+		  }*/
+		  
+			 }
+
+		}
